@@ -1455,7 +1455,7 @@ write_sklaffrc(int uid, struct SKLAFFRC *kaffer)
     non_critical();
 
     /* Mirror sig to .plan file */
-
+    /*
     p = getpwuid(Uid);
     strcpy(user_home, p->pw_dir);
     memcpy(file1, user_home, strlen(user_home) + 1);
@@ -1475,4 +1475,5 @@ write_sklaffrc(int uid, struct SKLAFFRC *kaffer)
     non_critical();
 
     return 0;
+    */
 }
