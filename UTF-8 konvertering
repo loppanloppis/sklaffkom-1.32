@@ -1,0 +1,5 @@
+Filer att ändra i :
+
+edit.c
+======
+134-169 -> konverterar från respektive teckentabell till sf7 inför lagring i "databasen" tror jag?
